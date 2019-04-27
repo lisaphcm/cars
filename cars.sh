@@ -21,10 +21,10 @@ do
 		echo "$YEAR:$MAKE:$MODEL" >> My_old_cars
 		echo "----------"
 		;;
-		2) sort My_old_cars
+		2) LIST=`sort My_old_cars`
+		echo "${LIST//:/ }"					
 		echo "----------"
 		;;
 		3) echo "Goodbye!"
 	esac
 done
-

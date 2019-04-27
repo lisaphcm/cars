@@ -17,6 +17,7 @@ cars.sh has three menu options:
 	* Press 2
 	* Prints My_old_cars as a list 
 	* Sorted by YEAR
+	* Colons replaced by spaces
 3. Quit Program
 	* Press 3
 
